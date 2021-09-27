@@ -2,6 +2,48 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-90-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Will
+Rust Book for reference:  
+https://doc.rust-lang.org/book/index.html
+
+Rust Additional Exercises (later):  
+https://doc.rust-lang.org/rust-by-example/index.html
+
+Exercisese are in `/exercises` not `/rustlings/exercises`
+
+```
+rustlings run generics3
+rustlings hint generics3
+```
+
+09/18/2021 left off at move_semantics 4.1
+
+Core Programming Concepts start at Chapter3
+
+| Exercise               | Book Chapter |
+|------------------------|--------------|
+| variables              | §3.1          |
+| functions              | §3.3          |
+| if                     | §3.5          |
+| move_semantics         | §4.1          |
+| primitive_types        | §4.3          |
+| structs                | §5.1          |
+| enums                  | §6            |
+| modules                | §7.2          |
+| collections            | §8.1          |
+| strings                | §8.2          |
+| error_handling         | §9            |
+| generics               | §10           |
+| option                 | §10.1         |
+| traits                 | §10.2         |
+| tests                  | §11.1         |
+| standard_library_types | §13.2         |
+| threads                | §16.1         |
+| macros                 | §19.6         |
+| clippy                 | n/a           |
+| conversions            | n/a           |
+
+
 # rustlings 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!

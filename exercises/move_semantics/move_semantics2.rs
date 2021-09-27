@@ -5,16 +5,22 @@
 // I AM NOT DONE
 
 fn main() {
-    let vec0 = Vec::new();
+    let mut vec = Vec::new();
 
-    let mut vec1 = fill_vec(vec0);
+    // should print the original 'vec' later, preserve it, don't create new vec1 yet
+    // let vec0 = vec; //.clone();
+    // let mut vec1 = fill_vec(vec0);
+
+    // OR
+    let vec0 = vec;
+    vec = fill_vec(vec0);
 
     // Do not change the following line!
-    println!("{} has length {} content `{:?}`", "vec0", vec0.len(), vec0);
+    println!("{} has length {} content `{:?}`", "vec", vec.len(), vec);
 
-    vec1.push(88);
+    vec.push(88);
 
-    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
+    // println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 }
 
 fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
